@@ -1,0 +1,46 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main-visual {
+  height: 800px;
+  width: 100%;
+}
+
+.main-visual-image1 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/box1.jpg);
+}
+
+
+.main-visual-image1-masuk {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-visual-image2 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/box2.jpg);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-visual-image3 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/box3.jpg);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-visual-image4 {
+  height: 200px;
+  width: 100%;
+  background-image: url(img/box4.jpg);
+  background-color: rgba(0, 0, 0, 0);
+}
